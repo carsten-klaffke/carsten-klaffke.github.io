@@ -42,7 +42,7 @@
 
 		&:hover {
 			border-bottom-color: transparent;
-			color: _palette(fg-bold) !important;
+			color: _palette(fg-bold);
 		}
 
 		&.special:not(.button) {
@@ -55,6 +55,10 @@
 			letter-spacing: _font(kern-heading);
 			margin: 0 0 _size(element-margin) 0;
 			text-transform: uppercase;
+
+			&.spotlight {
+				color: _palette(bg);
+			}
 
 			&:before {
 				@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
@@ -120,6 +124,10 @@
 		&.major {
 			padding-bottom: 1em;
 			border-bottom: solid 2px _palette(border);
+		}
+
+		&.spotlight {
+			color: _palette(bg);
 		}
 	}
 

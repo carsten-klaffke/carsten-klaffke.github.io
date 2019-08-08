@@ -161,6 +161,7 @@
 		&.spotlight {
 			@include wrapper-edges-color(_palette(accent));
 			background-color: _palette(accent);
+			color: _palette(bg);
 
 			.inner {
 				@include vendor('display', 'flex');
@@ -230,6 +231,7 @@
 			}
 
 			&.spotlight {
+				color: _palette(bg);
 				.image {
 					margin: 0 _size(section-spacing, medium) _size(element-margin) 0;
 					width: 32em;
@@ -264,6 +266,7 @@
 			}
 
 			&.spotlight {
+				color: _palette(bg);
 				.inner {
 					@include vendor('align-items', 'flex-start');
 				}
@@ -283,6 +286,7 @@
 
 		@include breakpoint('<=xsmall') {
 			&.spotlight {
+				color: _palette(bg);
 				.inner {
 					display: block;
 				}

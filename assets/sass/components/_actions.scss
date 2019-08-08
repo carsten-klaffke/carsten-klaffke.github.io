@@ -23,6 +23,10 @@
 			width: 100%;
 			margin-left: 0;
 
+			&.spotlight {
+				color: _palette(bg);
+			}
+
 			li {
 				&:first-child {
 					padding-left: 0;

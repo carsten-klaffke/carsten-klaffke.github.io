@@ -9,5 +9,9 @@
 	section, article {
 		&.special {
 			text-align: center;
+
+			&.spotlight {
+				color: _palette(bg);
+			}
 		}
 	}
