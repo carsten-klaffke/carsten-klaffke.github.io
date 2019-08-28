@@ -30,7 +30,7 @@
 
 // Font.
 	$font: (
-		family:					('Roboto-Condensed', Helvetica, sans-serif),
+		family:					('Roboto-Condensed', sans-serif),
 		family-fixed:			('Roboto-Condensed', monospace),
 		family-heading:			('Roboto-BoldCondensed', sans-serif),
 		weight:					300,
@@ -46,7 +46,7 @@
 		fg:						#000F4D,
 		fg-bold:				#000F4D,
 		fg-light:				rgba(0,15,77,0.35),
-		border:					rgba(0,15,77,0.75),
+		border:					rgba(0,15,77,0.25),
 		border-bg:				rgba(166,217,255,0.025),
 		border2:				rgba(0,15,77,0.25),
 		border2-bg:				rgba(0,15,77,0.075),
